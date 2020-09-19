@@ -1,14 +1,15 @@
 import * as C from './styles';
-const Main = () => (
+const Main = ({
+  title = 'React Boilerplate',
+  description = 'Typescript, ReactJS, NextJS e Styled Components'
+}) => (
   <C.Wrapper>
     <C.Logo
       src="/img/logo.png"
       alt="Imagem contendo a palavra Boilerplate"
     ></C.Logo>
-    <C.Title>React Boilerplate</C.Title>
-    <C.Description>
-      Typescript, ReactJS, NextJS e Styled Components
-    </C.Description>
+    <C.Title>{title}</C.Title>
+    <C.Description>{description}</C.Description>
   </C.Wrapper>
 );
 

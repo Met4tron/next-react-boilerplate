@@ -1,6 +1,7 @@
-[React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+Made with :heart: in a course called [React Avançado](https://reactavancado.com.br/).
+Many Thanks to [Willian Justen](https://github.com/willianjusten)
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
 
 ## What is inside?
 
@@ -29,10 +30,3 @@ This project uses lot of stuff as:
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
-
-
-
----
-Made with :heart: in a course called [React Avançado](https://reactavancado.com.br/).
-
-Many Thanks to [Willian Justen](https://github.com/willianjusten)

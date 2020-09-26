@@ -1,16 +1,21 @@
-import * as C from './styles';
+import * as S from './styles';
+
 const Main = ({
-  title = 'React Boilerplate',
-  description = 'Typescript, ReactJS, NextJS e Styled Components'
+  title = 'React Avançado',
+  description = 'TypeScript, ReactJS, NextJS e Styled Components'
 }) => (
-  <C.Wrapper>
-    <C.Logo
-      src="/img/logo.png"
-      alt="Imagem contendo a palavra Boilerplate"
-    ></C.Logo>
-    <C.Title>{title}</C.Title>
-    <C.Description>{description}</C.Description>
-  </C.Wrapper>
+  <S.Wrapper>
+    <S.Logo
+      src="/img/logo.svg"
+      alt="Imagem de um átomo e React Avançado escrito ao lado."
+    />
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
+    <S.Illustration
+      src="/img/hero-illustration.svg"
+      alt="Um desenvolvedor de frente para uma tela com código."
+    />
+  </S.Wrapper>
 );
 
 export default Main;
